@@ -15,4 +15,5 @@ Cargo.lock
 /target
 
 # dataset
-*.csv
+/examples/wine_quality/*.csv
+/examples/mnist/*
