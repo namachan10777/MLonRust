@@ -1,0 +1,13 @@
+[package]
+name = "examples"
+version = "0.0.0"
+publish = false
+edition = "2018"
+
+[[example]]
+name = "lsm_wine_quality"
+path = "lsm_wine_quality.rs"
+
+[dev-dependencies]
+csv = "1.1.5"
+nalgebra = "0.24.0"
